@@ -1,6 +1,6 @@
-#include <studio.h>
+#include <stdio.h>
 /**
-* main - main entry point
+* main - Entry point
 * Description: this function prints the text inside
 * Return : always 0 (success)
 */
