@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
 *main - main entry point
+*description: this function prints the text inside
 *return ; always 0 (succeed)
 */
 int main(void)
