@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <studio.h>
 /**
 * main - main entry point
 * Description: this function prints the text inside
