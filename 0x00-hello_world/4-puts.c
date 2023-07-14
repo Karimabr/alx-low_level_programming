@@ -2,7 +2,7 @@
 /**
 * main - Entry point
 * Description: this function prints the text inside
-* Return : always 0 (success)
+* Return: Always 0 (success)
 */
 int main(void)
 {
