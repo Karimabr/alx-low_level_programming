@@ -1,9 +1,10 @@
 #include "main.h"
-	/**
-	 * main - Entry point
-	 * Description: "prints _putchar to stout"
-	 * Return: Always 0 (success)
-	 */
+/**
+* main - Entry point
+* Description: "prints _putchar to stdout"
+* Return: Always 0 (success)
+*/
+
 
 	int main(void)
 	{
