@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-<<<<<<< HEAD
  *_memcpy - a function that copies memory area
  *@dest: memory where is stored
  *@src: memory where is copied
@@ -19,22 +18,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		n--;
 	}
 	return (dest);
-=======
- * _strchr - Entry point
- * @s: input
- * @c: input
- * Return: Always 0 (Success)
- */
-char *_strchr(char *s, char c)
-{
-	int i = 0;
-
-	for (; s[i] >= '\0'; i++)
-	{
-		if (s[i] == c)
-			return (&s[i]);
-	}
-	return (0);
->>>>>>> 08bf6bd0f3dc6f1d167335bcb8a06f6ab5aeaf9d
 }
 
