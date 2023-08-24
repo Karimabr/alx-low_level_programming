@@ -5,7 +5,7 @@
  * free_list - function to free the list_t list.
  *
  * @head: list's head pointer.
- * 
+ *
  * Return: nothing = success.
  *
  */

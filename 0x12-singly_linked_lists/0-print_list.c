@@ -30,6 +30,5 @@ size_t print_list(const list_t *h)
 			cont++;
 		}
 	}
-	
 	return (cont);
 }
