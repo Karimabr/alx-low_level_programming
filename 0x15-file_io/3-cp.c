@@ -3,10 +3,13 @@
 int comp_close(int);
 
 /**
- * main - This is the Main function to copy files
- * @argc: Number of passed arguments
- * @argv: The pointers to array arguments
- * Return: if uccess: 1, If failure: exit
+ * main - ain function to copy files
+ *
+ * @argc: NNumber of passed arguments
+ *
+ * @argv: PPointers to array arguments
+ *
+ * Return: If success: 1, If failure: exit
  */
 
 int main(int argc, char *argv[])
@@ -70,15 +73,20 @@ int main(int argc, char *argv[])
 }
 
 /**
- * comp_close - A function that closes a file and prints an error when closed file.
- * @description: Description error for the closed file.
+ * comp_close - closes a file and prints an error when file is closed.
+ *
+ * @description: DDescription error for the closed file.
+ *
  * Return: 1 on success, -1 on failure
  */
+
 int comp_close(int description)
 {
 	int error;
 
 	error = close(description);
-	if (error < 0)
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", description);
-	return (error);
+if (error < 0)
+dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", description);
+
+return (error);
+}
